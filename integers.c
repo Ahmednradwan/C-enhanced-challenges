@@ -1,3 +1,13 @@
+/**
+ * @file integers.c
+ * @author Ahmed N. Radwan (ahmed_n_radwan@hotmail.com)
+ * @brief The below code is to introduce the different representations of the integer and float numbers.  
+ * @version 0.1
+ * @date 2023-08-16
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdint.h>
