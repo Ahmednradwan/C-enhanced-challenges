@@ -25,6 +25,9 @@ uint32_t primeNums[primArraySize];
 
 uint32_t main()
 {
-    /* code */
+    printf("#######################################################################################\n");
+    printf("#           Welcome to The Further Improved Prime Numbers Challenge                   #\n");
+    printf("#######################################################################################\n");
+
     return EXIT_SUCCESS;
 }
