@@ -40,7 +40,7 @@ void generateArray(int *r, int *c, int *limit)
     {
         for (int j = 0; j < *c; j++)
         {
-            array[i][j]= (*limit)%((i*j)+3);
+            array[i][j]= rand()%100;
         }
     }
     

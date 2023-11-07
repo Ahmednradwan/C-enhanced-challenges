@@ -7,7 +7,7 @@ below an upper limit that would be entered by the user or
 above a lower limit that entered by him.
 In both cases the Max number is a constant 1000 and if the
 lower limit or upper limit exceeds the Max number the prog-
-ram would generate a warrning and terminate*/
+ram would generate a warrning and terminates*/
 
 const int max =1000;
 int lwrLimit,uprLimit;
