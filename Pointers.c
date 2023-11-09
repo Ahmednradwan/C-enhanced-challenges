@@ -27,6 +27,29 @@ int main()
     printf("5| %d, %c, 0X%X, %u,%X \n",x,*ptrChar,ptrChar,ptrChar,&x);
     ptrChar=(char*)&y;
     printf("6| %d, %c, 0X%X, %u,%X \n",y,*ptrChar,ptrChar,ptrChar,&y);
+    x=0XABCD1234;
+    ptrChar=(char*)&x;
+    printf("7| %u,0X%X, %c, 0X%X, %u,%X \n",x,x,*ptrChar,ptrChar,ptrChar,&x);
+    *ptrChar='C';
+    printf("8| %u,0X%X, %c, 0X%X, %u,%X \n",x,x,*ptrChar,ptrChar,ptrChar,&x);
+    ptrInt=&x;
+    *ptrInt='C';
+    printf("9| %u,0X%X, %c, 0X%X, %u,%X \n",x,x,*ptrInt,ptrInt,ptrInt,&x);
+    if (ptrNl)
+    {
+        printf("10|%d\n",*ptrNl);   // trying to access an invalid memory address. Program will be crashed upon this line execution.
 
+    }
+    else
+    {
+        printf("Error !! Trying to access an invalid memory address using \"Null Pointer\"\n");
+    }
+    
+    printf("==========Finished Successfully==========\n");
+    
+ 
+
+    
+    
     return EXIT_SUCCESS;
 }
